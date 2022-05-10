@@ -2,9 +2,12 @@
 
 ## scripts
 
-- development: npm run build:dev
-- production: npm run build:prod
-- run server: npm start
+#### build development: 
+`npm run build:dev`
+#### build production: 
+`npm run build:prod`
+#### run server: 
+`npm start`
 
 
 #### dev-devendecies:
