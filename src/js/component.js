@@ -1,4 +1,6 @@
-export const greating = ( name = '' ) => {
+import '../css/component.css';
+
+export const greating = (name = '') => {
 
     const h1 = document.createElement('h1');
     h1.innerHTML = (`Welcome, ${name}.`);
