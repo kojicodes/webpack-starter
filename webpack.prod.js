@@ -6,7 +6,7 @@ const Terser = require('terser-webpack-plugin');
 
 module.exports = {
 
-    mode: 'development',
+    mode: 'production',
     output: {
         clean: true,
         filename: 'main.[contenthash].js'
@@ -58,7 +58,7 @@ module.exports = {
             template: './src/index.html'
         }),
         new MiniCssExtract({
-            filename: '[name].css',
+            filename: '[name].[fullhash].css',
             ignoreOrder: false
         }),
         new CopyWebpack({

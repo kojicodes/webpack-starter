@@ -6,7 +6,7 @@ module.exports = {
 
     mode: 'development',
     output: {
-        clean: true
+        clean: true,
     },
     module: {
         rules: [
